@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+#h1{
+    font-size: medium;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line{
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    margin: 8px auto;
+}
+.menu a{
+    float: left;
+    font-family: Calibri;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 27px;
+}
+.menu{
+    list-style: none;
+    font-family: Calibri, Arial, Helvetica, sans-serif; 
+    position: fixed;
+    background-color:black;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 10
+}
+.container img{
+    width: 400px;
+    height: 300px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    margin-top: 3px;
+}
+#home img{
+    width: 1425px;
+    height: 1000px;
+}
